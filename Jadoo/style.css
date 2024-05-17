@@ -1,0 +1,1346 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+a {
+text-decoration: none;
+color: inherit;
+color: rgb(33, 40, 50);
+font-family: Google Sans;
+font-size: 17px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+ul , li{
+    list-style: none;
+  
+}
+.container {
+    position: absolute;
+   margin-left: -50px;      
+}
+body {
+     display: flex;
+    justify-content: center; 
+ 
+}
+.navbar {
+   
+
+}
+.navbar-logo {
+
+
+position: absolute;
+width: 114.91px;
+height: 33.99px;
+left: 140.92px;
+right: -140.92px;
+top: 48.7px;
+bottom: -48.7px;
+}
+
+.navbar-logo-2{
+
+position: absolute;
+width: 39px;
+height: 17.5px;
+left: 215px;
+right: -138.09px;
+top: 62px;
+bottom: -63.51px;
+border-radius: 30px;
+}
+.navbar-links{
+/* display: flex;
+position: absolute;
+width: 55px;
+height: 20px;
+
+top: 56px;
+bottom: -36px; 
+gap: 51px;
+padding-left: 100px; */
+/* Nav Item */
+position: absolute;
+width: 102px;
+height: 20px;
+left: 478px;
+right: 580.58px;
+top: 56px;
+bottom: -36px;
+display: flex;
+gap: 51px;
+}
+.navbar-button {
+     position: absolute;
+    width: 102px;
+    height: 40px;
+    left: 550px;
+    top: -8px; 
+    border: 1px solid;
+    border-radius: 4px ;
+    background-color:rgb(255, 241, 218) ;
+
+   }
+.languages {
+position: absolute;
+width: 23px;
+height: 20px;
+left: 700px;
+top: 2px;
+color: rgb(33, 40, 50);
+font-family: Google Sans;
+font-size: 17px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.decore-img{
+margin-left: -613px;
+margin-top: -250px;
+
+}
+
+
+.title {
+    /* Tagline */
+position: absolute;
+width: 510px;
+height: 30px;
+left: 150px;
+right: 30px;
+top: 217px;
+bottom: 288px;
+color: rgb(223, 105, 81);
+font-family: Poppins;
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: uppercase;
+}
+.back-decore{
+    /* Decore */
+position: absolute;
+width: 385px;
+height: 12px;
+left: 393px;
+right: -148px;
+top: 340px;
+bottom: 183px;
+}
+.paragraph {
+    /* Heading */
+position: absolute;
+width: 535px;
+height: 267px;
+left: 150px;
+right: -55px;
+top: 271px;
+bottom: -3px;
+color: rgb(24, 30, 75);
+font-family: Volkhov;
+font-size: 84px;
+font-weight: 700;
+line-height: 89px;
+letter-spacing: -4%;
+text-align: left;
+}
+.description{
+    /* Desc */
+position: absolute;
+width: 377px;
+height: 90px;
+left: 148px;
+right: 5px;
+top: 568px;
+bottom: -123px;
+color: rgb(94, 98, 130);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+.main-btn{
+    /* Find out more */
+position: absolute;
+width: 119px;
+height: 40px;
+left: 174px;
+right: -123px;
+top: 711px;
+bottom: -672px;
+color: rgb(255, 255, 255);
+font-family: Google Sans;
+font-size: 18px;
+font-weight: 500;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+
+/* Rectangle 23 */
+position: absolute;
+width: 170px;
+height: 60px;
+left: 148px;
+right: -148px;
+top: 692px;
+bottom: -692px;
+border-radius: 10px;
+border: 0;
+
+
+
+}
+.second-btn {
+/* Ellipse 8 */
+position: absolute;
+width: 52px;
+height: 52px;
+left: 362px;
+right: -362px;
+top: 696px;
+bottom: -696px;
+
+
+border-radius: 30px;
+/* Polygon 1 */
+position: absolute;
+border: 0;
+}
+.last-letter {
+    /* Play Demo */
+position: absolute;
+width: 92px;
+height: 26px;
+left: 435px;
+right: -362px;
+top: 711px;
+bottom: -685px;
+color: rgb(104, 109, 119);
+font-family: Poppins;
+font-size: 17px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+ color: rgb(104, 109, 119)
+}
+.main-img {
+    /* Traveller 1 */
+position: absolute;
+width: 765px;
+height: 764px;
+left: 565px;
+right: -546.13px;
+top: 105px;
+bottom: -105px;
+}
+.first-plane{
+    /* plane */
+position: absolute;
+width: 137.29px;
+height: 95.23px;
+left: 1198px;
+right: -535.42px;
+top: 280.43px;
+bottom: 388.34px;
+transform: rotate(-1.84deg);
+}
+.second-plane {
+    /* Group */
+position: absolute;
+width: 128.04px;
+height: 69.56px;
+left: 40.12%;
+right: -519.37%;
+top: 19.28%;
+bottom: -235.33%;
+transform: rotate(-0.89deg);
+}
+.menu-title{
+position: absolute;
+width: 98px;
+height: 27px;
+left: 652px;
+right: 478px;
+top: 974px;
+bottom: -476px;
+color: rgb(94, 98, 130);
+font-family: Poppins;
+font-size: 18px;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: center;
+}
+.menu-text{
+    /* We Offer Best Services */
+position: absolute;
+width: 566px;
+height: 60px;
+left: 418.5px;
+right: 243.5px;
+top: 1011px;
+bottom: -546px;
+color: rgb(20, 24, 62);
+font-family: Volkhov;
+font-size: 50px;
+font-weight: 700;
+line-height: 65px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+}
+.categories-pic1{
+    /* Group */
+position: absolute;
+width: 66.74px;
+height: 70px;
+left: 210.16px;
+right: -310.16px;
+top: 1199.29px;
+bottom: -1694.29px;
+}
+.pic1-text {
+    /* Calculated Weather */
+position: absolute;
+width: 190px;
+height: 27px;
+left: 154px;
+right: -154px;
+top: 1293px;
+bottom: -1093px;
+color: rgb(30, 29, 76);
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.pic1-description{
+    /* Built Wicket longer admire do barton vanity itself do in it. */
+position: absolute;
+width: 151px;
+height: 78px;
+left: 159px;
+right: -150px;
+top: 1335px;
+bottom: -1186px;
+color: rgb(94, 98, 130);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+.categories-pic2 {
+    /* Group 51 */
+position: absolute;
+width: 166.87px;
+height: 153.33px;
+left: 466.21px;
+right: -331.09px;
+top: 1142.09px;
+bottom: -946.52px;
+}
+.pic2-text{
+    /* Best Flights */
+position: absolute;
+width: 111px;
+height: 27px;
+left: 491px;
+right: -300px;
+top: 1293px;
+bottom: -971.09px;
+color: rgb(30, 29, 76);
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: left;
+}
+.background-pic{
+    /* Rectangle 6 */
+position: absolute;
+width: 267px;
+height: 314px;
+left: 337px;
+right: -382px;
+top: 1144px;
+bottom: -1109.09px;
+border-radius: 36px;
+border-radius: 36px;
+
+/* box-shadow: 0px 1.85px 3.15px 0px rgba(0, 0, 0, 0),0px 8.15px 6.52px 0px rgba(0, 0, 0, 0.01),0px 20px 13px 0px rgba(0, 0, 0, 0.01),0px 38.52px 25.48px 0px rgba(0, 0, 0, 0.01),0px 64.81px 46.85px 0px rgba(0, 0, 0, 0.02),0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+/* white */
+/* background: rgb(255, 255, 255); */ */
+
+
+}
+
+.pic2-description {
+/* Engrossed listening. Park gate sell they west hard for the. */
+position: absolute;
+width: 141px;
+height: 78px;
+left: 461px;
+right: -340px;
+top: 1335px;
+bottom: -1064.09px;
+color: rgb(94, 98, 130);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+.photo {
+    /* Group 4 */
+position: absolute;
+width: 123px;
+height: 166px;
+left: 1229px;
+right: -154px;
+top: 966px;
+bottom: -607px;
+}
+.categories-pic3{
+/* Group 50 */
+position: absolute;
+width: 67px;
+height: 75px;
+left: 829px;
+right: -715px;
+top: 1184px;
+bottom: -1030px;
+}
+.pic3-text {
+    /* Local Events */
+position: absolute;
+width: 120px;
+height: 27px;
+left: 792px;
+right: -731px;
+top: 1293px;
+bottom: -1091px;
+color: rgb(30, 29, 76);
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: center;
+}
+.pic3-description {
+    /* Barton vanity itself do in it. Preferd to men it engrossed listening. */
+position: absolute;
+width: 151px;
+height: 78px;
+left: 763px;
+right: -763px;
+top: 1335px;
+bottom: -1184px;
+color: rgb(94, 98, 130);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.categories-pic4 {
+    /* Group 49 */
+position: absolute;
+width: 77px;
+height: 66px;
+left: 1125px;
+right: -1021px;
+top: 1197px;
+bottom: -1047px;
+}
+.pic4-text {
+    /* Customization */
+position: absolute;
+width: 140px;
+height: 27px;
+left: 1082px;
+right: -1041px;
+top: 1293px;
+bottom: -1104px;
+color: rgb(30, 29, 76);
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.pic4-description {
+    /* We deliver outsourced aviation services for military customers */
+position: absolute;
+width: 181px;
+height: 78px;
+left: 1062px;
+right: -1062px;
+top: 1335px;
+bottom: -1197px;
+color: rgb(94, 98, 130);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+.rectangle-pic{
+    /* Rectangle 157 */
+position: absolute;
+width: 100px;
+height: 100px;
+left: 382px;
+right: -180px;
+top: 1391px;
+bottom: -1142.09px;
+}
+.main-title {
+    /* Subheading */
+position: absolute;
+width: 100px;
+height: 27px;
+left: 632px;
+right: 370px;
+top: 1614px;
+bottom: -1024px;
+color: rgb(94, 98, 130);
+font-family: Poppins;
+font-size: 18px;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: center;
+}
+.main-description-1 {
+    /* Heading */
+position: absolute;
+width: 414px;
+height: 60px;
+left: 492px;
+right: 196px;
+top: 1649px;
+bottom: -1092px;
+color: rgb(20, 24, 62);
+font-family: Volkhov;
+font-size: 50px;
+font-weight: 700;
+line-height: 65px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+}
+.main-pic1{
+/* Destination */
+position: absolute;
+width: 315px;
+height: 457px;
+left: 173px;
+right: 614px;
+top: 1774px;
+bottom: -1614px;
+}
+.main-pic2{
+/* Destination */
+position: absolute;
+width: 315px;
+height: 457px;
+left: 523px;
+right: 264px;
+top: 1774px;
+bottom: -1614px;
+}
+.main-pic3{
+/* Destination */
+position: absolute;
+width: 315px;
+height: 457px;
+left: 898px;
+right: -111px;
+top: 1774px;
+bottom: -1614px;
+}
+.main-decore{
+    /* Decore */
+position: absolute;
+width: 96px;
+height: 252px;
+left: 1250px;
+top: 1932px; 
+
+}
+
+.main-title-2{
+    /* Subheading */
+position: absolute;
+width: 126px;
+height: 27px;
+left: 189px;
+right: 799px;
+top: 2417px;
+bottom: -1952px;
+color: rgb(94, 98, 130);
+font-family: Poppins;
+font-size: 18px;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: center;
+}
+.main-description-2{
+    /* Heading */
+position: absolute;
+width: 494px;
+height: 121px;
+left: 186px;
+right: 434px;
+top: 2459px;
+bottom: -2088px;
+color: rgb(20, 24, 62);
+font-family: Volkhov;
+font-size: 50px;
+font-weight: 700;
+line-height: 65px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+}
+.image1 {
+    /* Rectangle 21 */
+position: absolute;
+width: 47px;
+height: 48px;
+left: 186px;
+right: -186px;
+top: 2624px;
+bottom: -2624px;
+}
+.image2 {
+/* Rectangle 21 */
+position: absolute;
+width: 47px;
+height: 48px;
+left: 186px;
+right: -186px;
+top: 2736px;
+bottom: -2736px;
+}
+.image3{
+/* Rectangle 22 */
+position: absolute;
+width: 47px;
+height: 48px;
+left: 186px;
+right: -186px;
+top: 2848px;
+bottom: -2848px;
+}
+.img-text1 {
+/* Choose Destination */
+position: absolute;
+width: 161px;
+height: 20px;
+left: 254px;
+right: -20px;
+top: 2620px;
+bottom: -2576px;color: rgb(94, 98, 130);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 700;
+line-height: 124.5%;
+letter-spacing: 0%;
+text-align: left;
+}
+.img-text2 {
+/* Make Payment */
+position: absolute;
+width: 124px;
+height: 20px;
+left: 254px;
+right: 17px;
+top: 2732px;
+bottom: -2688px;
+color: rgb(94, 98, 130);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 700;
+line-height: 124.5%;
+letter-spacing: 0%;
+text-align: left;
+}
+ .img-text3 {
+/* Reach Airport on Selected Date */
+position: absolute;
+width: 254px;
+height: 20px;
+left: 254px;
+right: -113px;
+top: 2844px;
+bottom: -2799px;
+color: rgb(94, 98, 130);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 700;
+line-height: 124.5%;
+letter-spacing: 0%;
+text-align: left;
+ }
+ .img-descript1{
+/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. */
+position: absolute;
+width: 327px;
+height: 40px;
+left: 254px;
+right: -186px;
+top: 2644px;
+bottom: -2620px;
+color: rgb(94, 98, 130);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 124.5%;
+letter-spacing: 0%;
+text-align: left;
+ }
+ .img-descript2{
+color: rgb(94, 98, 130);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 124.5%;
+letter-spacing: 0%;
+text-align: left;
+/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. */
+position: absolute;
+width: 327px;
+height: 40px;
+left: 254px;
+right: -186px;
+top: 2756px;
+bottom: -2732px;
+ }
+ .img-descript3{
+color: rgb(94, 98, 130);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 124.5%;
+letter-spacing: 0%;
+text-align: left;
+/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. */
+position: absolute;
+width: 327px;
+height: 40px;
+left: 254px;
+right: -186px;
+top: 2869px;
+bottom: -2844px;
+ }
+ .right-side-img{
+    /* Image */
+position: absolute;
+width: 485px;
+height: 400px;
+left: 815px;
+right: -815px;
+top: 2285px;
+bottom: -2436px;
+ }
+.footer-title{
+    color: rgb(94, 98, 130);
+font-family: Poppins;
+font-size: 18px;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: uppercase;
+/* Subheading */
+position: absolute;
+width: 128px;
+height: 27px;
+left: 186px;
+right: 851px;
+top: 3118px;
+bottom: -2789px;
+}
+.footer-descript {
+    /* Heading */
+position: absolute;
+width: 413px;
+height: 121px;
+left: 186px;
+right: 566px;
+top: 3153px;
+bottom: -2918px;
+color: rgb(20, 24, 62);
+font-family: Volkhov;
+font-size: 50px;
+font-weight: 700;
+line-height: 65px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+}
+
+.human-pic {
+    /* Image */
+position: absolute;
+width: 68px;
+height: 68px;
+left: 682px;
+right: -209px;
+top: 3109px;
+bottom: -2898px;
+}
+.background{
+    /* Rectangle 18 */
+position: absolute;
+width: 504px;
+height: 245px;
+left: 719px;
+right: -682px;
+top: 3143px;
+bottom: -3109px;
+border-radius: 10px;
+
+box-shadow: 0px 1.85px 3.15px 0px rgba(0, 0, 0, 0),0px 8.15px 6.52px 0px rgba(0, 0, 0, 0.01),0px 20px 13px 0px rgba(0, 0, 0, 0.01),0px 38.52px 25.48px 0px rgba(0, 0, 0, 0.01),0px 64.81px 46.85px 0px rgba(0, 0, 0, 0.02),0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+/* white */
+background: rgb(255, 255, 255);
+}
+.inner-text {
+    /* Testimonail */
+position: absolute;
+width: 322px;
+height: 96px;
+left: 753px;
+right: -614px;
+top: 3171px;
+bottom: -2988px;
+color: rgb(94, 98, 130);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: left;
+}
+.name {
+/* Mike taylor */
+position: absolute;
+width: 101px;
+height: 27px;
+left: 753px;
+right: -313px;
+top: 3301px;
+bottom: -3049px;
+color: rgb(94, 98, 130);
+font-family: Poppins;
+font-size: 18px;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: left;
+}
+.location{
+/* Lahore, Pakistan */
+position: absolute;
+width: 116px;
+height: 21px;
+left: 753px;
+right: -328px;
+top: 3333px;
+bottom: -3075px;
+color: rgb(94, 98, 130);
+font-family: Poppins;
+font-size: 14px;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: 0%;
+text-align: left;
+}
+h3 {
+    /* Chris Thomas */
+position: absolute;
+width: 127px;
+height: 27px;
+left: 803px;
+right: -428px;
+top: 3389px;
+bottom: -3184px;
+color: rgb(94, 98, 130);
+font-family: Poppins;
+font-size: 18px;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: left;
+}
+h4{
+    /* CEO of Red Button */
+position: absolute;
+width: 127px;
+height: 21px;
+left: 803px;
+right: -428px;
+top: 3422px;
+bottom: -3211px;
+color: rgb(94, 98, 130);
+font-family: Poppins;
+font-size: 14px;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: 0%;
+text-align: left;
+}
+.footer-logos {
+    /* logos */
+position: absolute;
+width: 1073px;
+height: 162px;
+left: 186px;
+right: 181px;
+top: 3561px;
+bottom: 1051px;
+}
+.icon{
+    /* Ellipse 31 */
+position: absolute;
+width: 70px;
+height: 70px;
+left: 1255px;
+right: -1255px;
+top: 3834px;
+bottom: -3834px;
+}
+.footer-btn {
+    /* Rectangle 1 */
+position: absolute;
+width: 180px;
+height: 68px;
+left: 832px;
+right: -832px;
+top: 4108px;
+bottom: -4108px;
+}
+.bootstrapt{
+/* Group 46 */
+position: absolute;
+width: 21px;
+height: 18px;
+left: 418px;
+right: -18px;
+top: 4133px;
+bottom: -4083px;
+}
+.pre-last-title {
+    /* Subscribe to get information, latest news and other interesting offers about Jadoo */
+position: absolute;
+width: 781px;
+height: 108px;
+left: 280px;
+right: 195px;
+top: 3926px;
+bottom: -3544px;
+color: rgb(94, 98, 130);
+font-family: Poppins;
+font-size: 33px;
+font-weight: 600;
+line-height: 54px;
+letter-spacing: 0%;
+text-align: center;
+}
+h5{
+    /* Your email */
+position: absolute;
+width: 74px;
+height: 17px;
+left: 453px;
+right: -106px;
+top: 4133px;
+bottom: -4082px;
+color: rgb(57, 66, 93);
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0%;
+text-align: left;
+}
+.footer-background{
+    /* Rectangle 164 */
+position: absolute;
+width: 1170px;
+height: 407px;
+left: 150px;
+right: -1218px;
+top: 3847px;
+bottom: -3847px;
+transform: rotate(180.00deg);
+border-radius: 20px 129px 20px 20px;
+
+/* light color */
+background: rgb(223, 215, 249);
+opacity: 0.2;
+
+}
+.logo-footer {
+    /* Jadoo. */
+position: absolute;
+width: 152px;
+height: 66px;
+left: 186px;
+right: -131px;
+top: 4420px;
+bottom: -4353px;
+color: rgb(24, 30, 75);
+font-family: Poppins;
+font-size: 44px;
+font-weight: 500;
+line-height: 66px;
+letter-spacing: 0%;
+text-align: left;
+}
+h6{
+/* Book your trip in minute, get full Control for much longer. */
+position: absolute;
+width: 207px;
+height: 48px;
+left: 186px;
+right: -186px;
+top: 4505px;
+bottom: -4420px;
+color: rgb(94, 98, 130);
+font-family: Poppins;
+font-size: 13px;
+font-weight: 500;
+line-height: 124.5%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.company {
+/* Company */
+position: absolute;
+width: 108px;
+height: 26px;
+left: 476px;
+right: -476px;
+top: 4441px;
+bottom: -4316px;
+color: rgb(8, 8, 9);
+font-family: Poppins;
+font-size: 21px;
+font-weight: 700;
+line-height: 124.5%;
+letter-spacing: 0%;
+text-align: left;
+}
+.about {
+    /* About */
+position: absolute;
+width: 55px;
+height: 22px;
+left: 476px;
+right: -423px;
+top: 4501px;
+bottom: -4372px;
+color: rgb(94, 98, 130);
+font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 124.5%;
+letter-spacing: 0%;
+text-align: left;
+}
+.careers {
+    color: rgb(94, 98, 130);
+font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 124.5%;
+letter-spacing: 0%;
+text-align: left;
+/* Careers */
+position: absolute;
+width: 72px;
+height: 22px;
+left: 476px;
+right: -440px;
+top: 4535px;
+bottom: -4406px;
+}
+.mobile {
+    color: rgb(94, 98, 130);
+font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 124.5%;
+letter-spacing: 0%;
+text-align: left;
+/* Mobile */
+position: absolute;
+width: 61px;
+height: 22px;
+left: 476px;
+right: -429px;
+top: 4570px;
+bottom: -4441px; 
+}
+.contact {
+    /* Contact */
+position: absolute;
+width: 88px;
+height: 26px;
+left: 657px;
+right: -656px;
+top: 4441px;
+bottom: -4316px;
+color: rgb(8, 8, 9);
+font-family: Poppins;
+font-size: 21px;
+font-weight: 700;
+line-height: 124.5%;
+letter-spacing: 0%;
+text-align: left;
+}
+.help {
+    /* Help/FAQ */
+position: absolute;
+width: 86px;
+height: 22px;
+left: 656px;
+right: -653px;
+top: 4499px;
+bottom: -4370px;
+color: rgb(94, 98, 130);
+font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 124.5%;
+letter-spacing: 0%;
+text-align: left;
+}
+.press {
+    /* Press */
+position: absolute;
+width: 48px;
+height: 22px;
+left: 656px;
+right: -615px;
+top: 4535px;
+bottom: -4406px;
+
+color: rgb(94, 98, 130);
+font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 124.5%;
+letter-spacing: 0%;
+text-align: left;
+}
+.affilates {
+/* Affilates */
+position: absolute;
+width: 74px;
+height: 22px;
+left: 656px;
+right: -641px;
+top: 4570px;
+bottom: -4441px;
+color: rgb(94, 98, 130);
+font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 124.5%;
+letter-spacing: 0%;
+text-align: left;
+}
+.more {
+    /* More */
+position: absolute;
+width: 55px;
+height: 26px;
+left: 836px;
+right: -777px;
+top: 4441px;
+bottom: -4314px;
+color: rgb(8, 8, 9);
+font-family: Poppins;
+font-size: 21px;
+font-weight: 700;
+line-height: 124.5%;
+letter-spacing: 0%;
+text-align: left;
+}
+.airlinefees {
+/* Airlinefees */
+position: absolute;
+width: 95px;
+height: 22px;
+left: 836px;
+right: -817px;
+top: 4501px;
+bottom: -4370px;
+color: rgb(94, 98, 130);
+font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 124.5%;
+letter-spacing: 0%;
+text-align: left;
+}
+.airline{
+/* Airline */
+position: absolute;
+width: 57px;
+height: 22px;
+left: 836px;
+right: -779px;
+top: 4537px;
+bottom: -4406px;
+color: rgb(94, 98, 130);
+font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 124.5%;
+letter-spacing: 0%;
+text-align: left;
+}
+.tips {
+    /* Low fare tips */
+position: absolute;
+width: 114px;
+height: 22px;
+left: 836px;
+right: -836px;
+top: 4572px;
+bottom: -4441px;
+color: rgb(94, 98, 130);
+font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 124.5%;
+letter-spacing: 0%;
+text-align: left;
+}
+.app {
+    /* Discover our app */
+position: absolute;
+width: 173px;
+height: 25px;
+left: 1034px;
+right: -993px;
+top: 4512px;
+bottom: -4461px;
+color: rgb(94, 98, 130);
+font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+line-height: 124.5%;
+letter-spacing: 0.5%;
+text-align: left;   
+}
+.site {
+    /* Copyrights */
+position: absolute;
+width: 203px;
+height: 17px;
+left: 616px;
+right: 798.94px;
+top: 4678px;
+bottom: -4061.14px;
+color: rgb(94, 98, 130);
+font-family: Poppins;
+font-size: 14px;
+font-weight: 500;
+line-height: 124.5%;
+letter-spacing: 0%;
+text-align: left;
+}
+.footer-decore {
+    /* Group 5 */
+position: absolute;
+width: 153px;
+height: 166px;
+left: 1251px;
+right: -48px;
+top: 4158px;
+bottom: -3834px;
+}
+.social {
+
+/* Background */
+position: absolute;
+width: 41px;
+height: 41px;
+left: 1034px;
+right: -1034px;
+top: 4441px;
+bottom: -4441px;
+ }
+
+.google-play {
+    /* Rectangle 23 */
+position: absolute;
+width: 107px;
+height: 35px;
+left: 1032px;
+right: -1032px;
+top: 4553px;
+bottom: -4553px;
+}
+.play-store {
+    /* Rectangle 24 */
+position: absolute;
+width: 100px;
+height: 35px;
+left: 1146px;
+right: -1146px;
+top: 4553px;
+bottom: -4553px;
+}
+.social-1 {
+/* Background */
+position: absolute;
+width: 45px;
+height: 45px;
+left: 1100px;
+right: -1100px;
+top: 4441px;
+bottom: -4441px;
+}
+.social-2 {
+/* Social */
+position: absolute;
+width: 41px;
+height: 41px;
+left: 1170px;
+right: -1034px;
+top: 4443px;
+bottom: -4439px;
+}
